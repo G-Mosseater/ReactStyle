@@ -30,7 +30,9 @@ function App() {
           alignItems: "center",
           backgroundColor: "#121212",
           height: "100vh",
-          gap: '150px'
+          gap: '100px',
+          overflow: 'hidden',
+          width: '100%',
         }}
       >
         {" "}
@@ -38,7 +40,7 @@ function App() {
           style={{
             color: "white",
 
-            fontSize: "48px",
+            fontSize: "38px",
           }}
         >
           Animals of Sri Lanka
@@ -99,7 +101,7 @@ function App() {
             </AccordionItem>
           </Accordion>
         </div>
-        <div style={{ width: "350px" }}>
+        <div style={{ width: "500px" }}>
           <Carousel>
             <CarouselContent>
               <CarouselItem className="flex justify-center ">
