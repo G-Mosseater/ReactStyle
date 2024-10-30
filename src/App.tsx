@@ -11,7 +11,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "./components/ui/carousel";
 
 import { NavBarComponent } from "./components/nav-bar";
 

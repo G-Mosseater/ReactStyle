@@ -1,12 +1,12 @@
 import * as React from "react"
 import { Menu } from "lucide-react"
 
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 import {
   Sheet,
   SheetContent,
   SheetTrigger,
-} from "@/components/ui/sheet"
+} from "./ui/sheet"
 
 const navItems = [
   { name: "Home", href: "/" },
